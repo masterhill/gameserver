@@ -1,0 +1,35 @@
+Info [2020-4-12 17:30:31]Log::setLogPath success,<LoginServerLog.txt,w>
+Info [2020-4-12 17:30:31]DBUser::init(user.db.user_info) success.
+Error [2020-4-12 17:30:31]Config::getStr not find <csGateUrl>
+Info [2020-4-12 17:30:31]Config::getStr csGateUrl=ws://127.0.0.1:4567
+Error [2020-4-12 17:30:31]Config::getStr not find <nSendBuffSize>
+Info [2020-4-12 17:30:31]Config::getInt nSendBuffSize=10240
+Error [2020-4-12 17:30:31]Config::getStr not find <nRecvBuffSize>
+Info [2020-4-12 17:30:31]Config::getInt nRecvBuffSize=8192
+Info [2020-4-12 17:30:31]127.0.0.1 ipv4: 127.0.0.1
+Info [2020-4-12 17:30:31]connet2ip(127.0.0.1,4567)
+Warring [2020-4-12 17:30:31]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-12 17:30:31]WebSocketClientC::handshake, Good.
+Info [2020-4-12 17:30:31]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-12 17:30:31]websocket server say: {"msgId":1,"state":0,"type":2,"time":1586683831321,"data":"ss_reg_api ok!"}
+Info [2020-4-12 17:30:31]ss_reg_api ok!
+Info [2020-4-12 17:30:59]websocket server say: {"cmd":"cs_msg_login","type":1,"msgId":3,"time":1586683859284,"data":{"username":"masterli","password":"123456"},"clientId":124}
+Info [2020-4-12 17:30:59]LoginServer::cs_msg_login: msgId=3 username=masterli password=123456
+Info [2020-4-12 17:31:8]websocket server say: {"cmd":"cs_msg_login","type":1,"msgId":5,"time":1586683868203,"data":{"username":"masterli1","password":"123456"},"clientId":128}
+Info [2020-4-12 17:31:8]LoginServer::cs_msg_login: msgId=5 username=masterli1 password=123456
+Info [2020-4-12 17:32:15]websocket server say: {"cmd":"cs_msg_login","type":1,"msgId":3,"time":1586683935612,"data":{"username":"masterli2","password":"123456"},"clientId":132}
+Info [2020-4-12 17:32:15]LoginServer::cs_msg_login: msgId=3 username=masterli2 password=123456
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039186,"data":{"clientId":132,"userId":100004}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<132> client_id<100004>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}erId":100004}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit   clientId<132> 
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039200,"data":{"clientId":128,"userId":100003}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<128> client_id<100003>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}erId":100003}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit   clientId<128> 
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039223,"data":{"clientId":124,"userId":100001}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<124> client_id<100001>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}erId":100001}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit   clientId<124> 
+Info [2020-4-12 17:34:1]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684041179,"data":{"clientId":92}}
+Info [2020-4-12 17:34:1]ss_msg_client_exit   clientId<92> 

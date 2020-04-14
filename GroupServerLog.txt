@@ -1,0 +1,46 @@
+Info [2020-4-12 17:30:28]Log::setLogPath success,<GroupServerLog.txt,w>
+Error [2020-4-12 17:30:28]Config::getStr not find <csGateUrl>
+Info [2020-4-12 17:30:28]Config::getStr csGateUrl=ws://127.0.0.1:4567
+Error [2020-4-12 17:30:28]Config::getStr not find <nSendBuffSize>
+Info [2020-4-12 17:30:28]Config::getInt nSendBuffSize=10240
+Error [2020-4-12 17:30:28]Config::getStr not find <nRecvBuffSize>
+Info [2020-4-12 17:30:28]Config::getInt nRecvBuffSize=8192
+Info [2020-4-12 17:30:28]127.0.0.1 ipv4: 127.0.0.1
+Info [2020-4-12 17:30:28]connet2ip(127.0.0.1,4567)
+Warring [2020-4-12 17:30:28]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-12 17:30:28]WebSocketClientC::handshake, Good.
+Info [2020-4-12 17:30:28]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-12 17:30:28]websocket server say: {"msgId":1,"state":0,"type":2,"time":1586683828569,"data":"ss_reg_api ok!"}
+Info [2020-4-12 17:30:28]ss_reg_api ok!
+Info [2020-4-12 17:31:12]websocket server say: {"cmd":"cs_msg_group_create","type":1,"msgId":7,"time":1586683872515,"data":{"group_id":123,"group_key":111},"clientId":128,"userId":100003}
+Info [2020-4-12 17:31:12]GroupServer create groupid<123> groupkey<111>
+Info [2020-4-12 17:31:17]websocket server say: {"cmd":"cs_msg_group_join","type":1,"msgId":8,"time":1586683877027,"data":{"group_id":123,"group_key":111},"clientId":124,"userId":100001}
+Info [2020-4-12 17:31:17]GroupServer join groupid<123> groupkey<111>
+Info [2020-4-12 17:31:17]GroupServer push groupid<123> client_id<124>
+Info [2020-4-12 17:31:23]websocket server say: {"cmd":"cs_msg_group_say","type":1,"msgId":10,"time":1586683883699,"data":{"group_id":123,"say":"helllo"},"clientId":128,"userId":100003}
+Info [2020-4-12 17:31:23]GroupServer say groupid<123> 
+Info [2020-4-12 17:31:23]GroupServer say groupid<123> client_id<128>
+Info [2020-4-12 17:32:19]websocket server say: {"cmd":"cs_msg_group_join","type":1,"msgId":5,"time":1586683939387,"data":{"group_id":123,"group_key":111},"clientId":132,"userId":100004}
+Info [2020-4-12 17:32:19]GroupServer join groupid<123> groupkey<111>
+Info [2020-4-12 17:32:19]GroupServer push groupid<123> client_id<132>
+Info [2020-4-12 17:32:26]websocket server say: {"cmd":"cs_msg_group_say","type":1,"msgId":23,"time":1586683946643,"data":{"group_id":123,"say":"nihao"},"clientId":128,"userId":100003}
+Info [2020-4-12 17:32:26]GroupServer say groupid<123> 
+Info [2020-4-12 17:32:26]GroupServer say groupid<123> client_id<128>
+Info [2020-4-12 17:33:13]websocket server say: {"cmd":"cs_msg_group_exit","type":1,"msgId":16,"time":1586683993531,"data":{"group_id":123,"group_key":111},"clientId":132,"userId":100004}
+Info [2020-4-12 17:33:13]GroupServer join groupid<123> clientId<132>
+Info [2020-4-12 17:33:13]GroupServer push groupid<123> client_id<132>
+Info [2020-4-12 17:33:50]websocket server say: {"cmd":"cs_msg_group_join","type":1,"msgId":25,"time":1586684030555,"data":{"group_id":123,"group_key":111},"clientId":132,"userId":100004}
+Info [2020-4-12 17:33:50]GroupServer join groupid<123> groupkey<111>
+Info [2020-4-12 17:33:50]GroupServer push groupid<123> client_id<132>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039186,"data":{"clientId":132,"userId":100004}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<132> client_id<100004>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}erId":100004}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039187,"data":{"clientId":132}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit  push groupid<123> client_id<132>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039200,"data":{"clientId":128,"userId":100003}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<128> client_id<100003>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}erId":100003}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039200,"data":{"clientId":128}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit  push groupid<123> client_id<128>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_user_exit","type":4,"time":1586684039223,"data":{"clientId":124,"userId":100001}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}
+Info [2020-4-12 17:33:59]ss_msg_user_exit   clientId<124> client_id<100001>
+Info [2020-4-12 17:33:59]websocket server say: {"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}erId":100001}}ÅR{"cmd":"ss_msg_client_exit","type":4,"time":1586684039223,"data":{"clientId":124}}
+Info [2020-4-12 17:33:59]ss_msg_client_exit  push groupid<123> client_id<124>

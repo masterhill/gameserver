@@ -1,0 +1,16 @@
+Info [2020-4-11 20:41:53]Log::setLogPath success,<UserClientLog.txt,w>
+Error [2020-4-11 20:41:53]Config::getStr not find <csGateUrl>
+Info [2020-4-11 20:41:53]Config::getStr csGateUrl=ws://127.0.0.1:4567
+Error [2020-4-11 20:41:53]Config::getStr not find <nSendBuffSize>
+Info [2020-4-11 20:41:53]Config::getInt nSendBuffSize=10240
+Error [2020-4-11 20:41:53]Config::getStr not find <nRecvBuffSize>
+Info [2020-4-11 20:41:53]Config::getInt nRecvBuffSize=8192
+Info [2020-4-11 20:41:53]127.0.0.1 ipv4: 127.0.0.1
+Info [2020-4-11 20:41:53]connet2ip(127.0.0.1,4567)
+Warring [2020-4-11 20:41:53]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-11 20:41:53]WebSocketClientC::handshake, Good.
+Info [2020-4-11 20:41:53]csGate::INetClient::connect(ws://127.0.0.1:4567) success.
+Info [2020-4-11 20:41:53]websocket server say: {"msgId":1,"state":0,"type":2,"time":1586608913498,"data":"cs_reg_client ok"}
+Info [2020-4-11 20:41:53]cs_reg_client ok
+Info [2020-4-11 20:41:53]websocket server say: {"state":0,"msgId":2,"clientId":124,"type":2,"time":1586608913504,"data":{"userId":100001,"token":"22924ce626b87e7cb6377afd9be905093657729e"}}
+Info [2020-4-11 20:41:53]user login userid:100001,token:22924ce626b87e7cb6377afd9be905093657729e

@@ -1,0 +1,24 @@
+Info [2020-4-14 22:9:54]Log::setLogPath success,<GateServerLog.txt,w>
+Error [2020-4-14 22:9:54]Config::getStr not find <nSendBuffSize>
+Info [2020-4-14 22:9:54]Config::getInt nSendBuffSize=10240
+Error [2020-4-14 22:9:54]Config::getStr not find <nRecvBuffSize>
+Info [2020-4-14 22:9:54]Config::getInt nRecvBuffSize=8192
+Error [2020-4-14 22:9:54]Config::getStr not find <nMaxClient>
+Info [2020-4-14 22:9:54]Config::getInt nMaxClient=65535
+Error [2020-4-14 22:9:54]Config::getStr not find <strIP>
+Info [2020-4-14 22:9:54]Config::getStr strIP=any
+Error [2020-4-14 22:9:54]Config::getStr not find <nPort>
+Info [2020-4-14 22:9:54]Config::getInt nPort=4567
+Info [2020-4-14 22:9:54]-ipv4
+Info [2020-4-14 22:9:54]create socket<96> success...
+Info [2020-4-14 22:9:54]bind port<4567> success...
+Info [2020-4-14 22:9:54]listen port<96> success...
+Info [2020-4-14 22:9:54]INetServer::reg_msg_call cmd<cs_msg_heart>.
+Info [2020-4-14 22:9:54]INetServer::reg_msg_call cmd<ss_reg_server>.
+Info [2020-4-14 22:9:54]INetServer::reg_msg_call cmd<cs_reg_client>.
+Info [2020-4-14 22:9:54]INetServer::reg_msg_call cmd<ss_msg_user_login>.
+Info [2020-4-14 22:9:54]INetServer::reg_msg_call cmd<ss_msg_user_logout>.
+Info [2020-4-14 22:9:55]thread<1>,time<1.000542>,socket<96>,Accept<0>,Join<0>,recv<0>,msg<0>
+Info [2020-4-14 22:9:56]thread<1>,time<1.000696>,socket<96>,Accept<0>,Join<0>,recv<0>,msg<0>
+Info [2020-4-14 22:9:57]thread<1>,time<1.000995>,socket<96>,Accept<0>,Join<0>,recv<0>,msg<0>
+Info [2020-4-14 22:9:58]thread<1>,time<1.000985>,socket<96>,Accept<0>,Join<0>,recv<0>,msg<0>
